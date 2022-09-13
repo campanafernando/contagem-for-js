@@ -18,7 +18,7 @@ function verificar(){
                 res.innerHTML += `\n${c} \u{1F3C7}` //emoji
             }
         }
-        else { //senão...
+        else { //se não...
             for(let c = i; c >= f; c-= p){ 
                 res.innerHTML += `\n${c} \u{1F3C7}`
             }
